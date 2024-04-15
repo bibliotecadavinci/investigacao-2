@@ -48,10 +48,10 @@ Você analisa bem o mapa de Londres e responde com o nº indicado no mapa, na re
 (input-box: bind _password, &quot;X====&quot;, 1)
 (link: &quot;Viajar para lá&quot;)[{
 	(set: _password to (replace: _password, &quot;X====&quot;, &quot;&quot;))
-	(if: (lowercase: _password) is &quot;28&quot;)[
+	(if: (lowercase: _password) is &quot;30&quot;)[
 		(go-to: &quot;Cena do crime&quot;)
 	]
-	(if: (lowercase: _password) is &quot;28co&quot;)[
+	(if: (lowercase: _password) is &quot;30co&quot;)[
 		(go-to: &quot;Cena do crime&quot;)
 	]
 	(else:)[
@@ -97,10 +97,10 @@ Olhe novemente no mapa, e identifique o número do Teatro Covent Garden, na regi
 (input-box: bind _password, &quot;X====&quot;, 1)
 (link: &quot;Viajar para lá&quot;)[{
 	(set: _password to (replace: _password, &quot;X====&quot;, &quot;&quot;))
-	(if: (lowercase: _password) is &quot;28&quot;)[
+	(if: (lowercase: _password) is &quot;30&quot;)[
 		(go-to: &quot;Cena do crime&quot;)
 	]
-	(if: (lowercase: _password) is &quot;28co&quot;)[
+	(if: (lowercase: _password) is &quot;30co&quot;)[
 		(go-to: &quot;Cena do crime&quot;)
 	]
 	(else:)[
